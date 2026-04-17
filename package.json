@@ -1,0 +1,16 @@
+{
+  "name": "mowlem-creek-premier-school",
+  "version": "2.0.0",
+  "description": "Mowlem Creek Premier School — Full Stack School Management System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server/index.js",
+    "dev": "node --watch --experimental-sqlite server/index.js",
+    "test": "node --experimental-sqlite test.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
